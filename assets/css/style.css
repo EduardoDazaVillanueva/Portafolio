@@ -311,6 +311,7 @@ html {
 .header__description {
   font-family: 'AlfaSlab';
   font-size: 3rem;
+  letter-spacing: 3px;
 }
 
 .section-1__container-text {
