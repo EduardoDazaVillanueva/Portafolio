@@ -279,11 +279,6 @@
     .section-1__container-rrss {
         gap: 25px;
     }
-
-    .proyectos__container-lengs{
-        flex-wrap: wrap;
-        margin-bottom: 20px;
-    }
 }
 
 @media (max-width: 380px) {
@@ -291,5 +286,9 @@
     .footer__container-rrss{
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .container-proyectos__proyecto{
+        width: 20px;
     }
 }
