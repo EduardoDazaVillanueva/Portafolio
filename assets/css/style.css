@@ -338,12 +338,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  width: 70%;
 }
 
 .section-1__img {
-  background-color: var(--color-principal);
-
-  border: 5px solid var(--color-claro);
   border-radius: 50%;
 }
 
@@ -410,7 +409,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   align-items: stretch;
   gap: 80px;
 }
@@ -418,7 +417,8 @@ html {
 .container-proyectos__proyecto {
   position: relative;
 
-  flex-basis: 30%;
+  max-width: 500px;
+  min-width: 400px;
 
   background-color: var(--color-oscuro);
   border-radius: 2rem;
@@ -813,8 +813,6 @@ html {
 .form__rrss:hover{
   scale: 1.4;
 }
-
-
 
 /* --------------- FOOTER ---------------*/
 .footer {
